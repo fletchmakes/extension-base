@@ -1,0 +1,18 @@
+{
+    "name": "your-extension",
+    "displayName": "Your Extension",
+    "description": "Extension Description",
+    "version": "1.0",
+    "author": { "name": "Your Name Here",
+                "email": "youremailhere@gmail.com",
+                "url": "yourwebsitehere.com" },
+    "contributors": [ ],
+    "publisher": "Your Name Here",
+    "license": "MIT",
+    "categories": [ "Scripts" ],
+    "contributes": {
+      "scripts": [
+          { "path": "./plugin.lua" }
+      ]
+    }
+  }
