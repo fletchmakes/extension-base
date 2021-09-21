@@ -5,6 +5,8 @@ This repo contains the boiler-plate code needed to develop your own Aseprite ext
 
 ## Things to Know
 
+If you haven't already, you should check out the [Aseprite Scripting API](https://github.com/aseprite/api). It's an incredibly rich set of documents that clearly define what you can do inside of a script. It is worth studying and becoming familiar with, if you're interested in extension development.
+
 What is the difference between an `extension` and a `script`? A few things:
 * Extensions can define where in Aseprite's menuing system they'd like to be found (i.e. `Edit > FX > Use Custom Font` instead of `File > Scripts > font-custom.lua`)
 * Easier installation (all it takes is double clicking a `.aseprite-extension` file)
@@ -43,3 +45,9 @@ Here's the step by step breakdown (use this repository as boiler-plate code):
 5. After this step, you are ready to test! In your file explorer, simply select all of the files that you'd like in the extension (`package.json`, `plugin.lua`, and whatever scripts you are including), and archive them as a `.zip` file.
 6. Rename your `archive.zip` to `extension-name.aseprite-extension`. YOU MUST USE the file ending `.aseprite-extension`. Try double clicking the file and seeing if it installs and runs correctly within Aseprite! 
 7. Drink a nice cup of tea because you just created an Aseprite extension!
+
+## Credits
+
+As an advocate of open-source software, feel free to suggest edits, or just fork this repository and make your own! If you've benefitted from my previous work, I would appreciate it if you would consider buying me a coffee. This is a great way to help support my creative endeavors: 
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L766S5F)
